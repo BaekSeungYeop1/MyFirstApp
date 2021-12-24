@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.dtiapplication">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.NoActionBar">
+        <activity android:name=".SuseongguTour6"></activity>
+        <activity android:name=".SuseongguTour5"></activity>
+        <activity android:name=".SuseongguTour4"></activity>
+        <activity android:name=".SuseongguTour3"></activity>
+        <activity android:name=".SuseongguTour2"></activity>
+        <activity android:name=".SuseongguTour1"></activity>
+        <activity android:name=".BukguTour4"></activity>
+        <activity android:name=".BukguTour3"></activity>
+        <activity android:name=".BukguTour2"></activity>
+        <activity android:name=".BukguTour1"></activity>
+        <activity android:name=".JungguTour6"></activity>
+        <activity android:name=".JungguTour5"></activity>
+        <activity android:name=".JungguTour4"></activity>
+        <activity android:name=".JungguTour3"></activity>
+        <activity android:name=".JungguTour2"></activity>
+        <activity android:name=".JungguTour1"></activity>
+        <activity android:name=".DalseoggunTour5"></activity>
+        <activity android:name=".DalseoggunTour4"></activity>
+        <activity android:name=".DalseoggunTour3"></activity>
+        <activity android:name=".DalseoggunTour2"></activity>
+        <activity android:name=".DalseoggunTour1"></activity>
+        <activity android:name=".DalseoguTour5"></activity>
+        <activity android:name=".DalseoguTour4"></activity>
+        <activity android:name=".DalseoguTour3"></activity>
+        <activity android:name=".DalseoguTour2"></activity>
+        <activity android:name=".DalseoguTour1"></activity>
+        <activity android:name=".DonguTour5"></activity>
+        <activity android:name=".DonguTour4"></activity>
+        <activity android:name=".DonguTour3"></activity>
+        <activity android:name=".DonguTour2" />
+        <activity android:name=".DonguTour1" />
+        <activity android:name=".secondscreen" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyDvqzPNocuIgesWwqcrhsjVjaq3NsoSKWg" />
+    </application>
+
+</manifest>
